@@ -18,7 +18,7 @@ ll nearestNeighbor(int n, const vector<vector<ll>>& d) {
         ll minCost = LLONG_MAX;
         int next = -1;
 
-        for (int j = 0; j < n; j++) {
+        for (int j = 1; j < n; j++) {
             if (!visited[j] && d[current][j] < minCost) {
                 minCost = d[current][j];
                 next = j;
@@ -68,7 +68,7 @@ int main() {
 //    FOR i = 1 TO n - 1 DO
 //        minCost = VÔ CÙNG
 //        next = -1
-//        FOR j = 0 TO n - 1 DO
+//        FOR j = 1 TO n - 1 DO
 //            IF visited[j] = false AND d[current][j] < minCost THEN
 //                minCost = d[current][j]
 //                next = j
