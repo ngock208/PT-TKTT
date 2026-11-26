@@ -1,5 +1,6 @@
-//Viết theo wiki https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm
-//Chưa thêm file kiểm thử
+//Viet theo wiki https://en.wikipedia.org/wiki/Held%E2%80%93Karp_algorithm
+//Chua them file kiem thu
+//Do phuc tap: O(n^2*2^n)
 #include <iostream>
 #include <vector>
 using namespace std;
