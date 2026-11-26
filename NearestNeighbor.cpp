@@ -1,5 +1,6 @@
-//chưa add file kiểm thử
-//Không tối ưu. Nhược điểm: vẫn cho ra kết quả sai. Ưu điểm: dễ cài đặt
+//chua them file kiem thu
+//Khong toi uu. Nhuoc điem: van cho ra ket qua sai. Uu điem: de cai dat
+//Do phuc tap: O(n^2)
 #include <iostream>
 #include <vector>
 #include <climits>
@@ -81,19 +82,3 @@ int main() {
 //    Quay về thành phố xuất phát
 //    tong = tong + d[current][0]
 //    RETURN tong
-
-
-//n    Số lượng thành phố
-//d[i][j]    Khoảng cách từ thành phố i đến j
-//visited[j]    Kiểm tra thành phố j đã được ghé thăm chưa
-//current    Thành phố hiện tại
-//next    Thành phố gần nhất tiếp theo
-//minCost    Khoảng cách nhỏ nhất tìm được
-//tong    Tổng chi phí hành trình
-
-
-//4
-//0 10 15 20
-//10 0 35 25
-//15 35 0 30
-//20 25 30 0
